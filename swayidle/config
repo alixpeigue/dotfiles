@@ -1,0 +1,6 @@
+timeout 60 '~/.config/scripts/idleBrightness sleep' resume '~/.config/scripts/idleBrightness wake'
+timeout 585 'dunstify -a "swayidle" -u low -i swayidle-going-idle "Locking in 15 seconds"'
+timeout 600 'swaylock -f' 
+timeout 615 'hyprctl dispatch dpms off' resume 'hyprctl dispatch dpms on'
+before-sleep 'swaylock -f'
+after-resume 'hyprctl dispatch dpms on'

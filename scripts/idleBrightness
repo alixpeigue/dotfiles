@@ -1,0 +1,25 @@
+#!/bin/bash
+# idleBrightness
+
+# Query amixer for the current volume and whether or not the speaker is muted
+if [[ $1 == "sleep" ]] 
+then
+    # Show the sound muted notification
+    xbacklight -get > /tmp/.brightness
+    xbacklight -dec 10
+    xbacklight -dec 10
+    xbacklight -dec 10
+    xbacklight -dec 10
+    xbacklight -dec 10
+    xbacklight -dec 10
+    xbacklight -dec 10
+    xbacklight -dec 10
+    xbacklight -dec 10
+    xbacklight -dec 10
+elif [[ $1 == "wake" ]]
+then
+    brightness=`cat /tmp/.brightness`
+    xbacklight -set $brightness
+    rm /tmp/.brightness
+fi
+

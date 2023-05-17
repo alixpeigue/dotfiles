@@ -1,0 +1,20 @@
+theme = "onedark_transparent"
+
+[editor]
+line-number = "relative"
+completion-replace = true
+color-modes = true
+
+[editor.file-picker]
+hidden = false
+
+[editor.statusline]
+left = ["mode", "spinner"]
+center = ["file-name", "file-modification-indicator", "version-control"]
+right = ["diagnostics", "selections", "position", "file-encoding", "file-line-ending", "file-type"]
+separator = "│"
+
+[editor.indent-guides]
+render = true
+character = "▏"
+skip-levels = 1
