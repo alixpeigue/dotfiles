@@ -16,7 +16,6 @@ fish/fish_variables
 !/qt5ct/**
 !/swayidle/**
 !/swaylock/**
-!/vlc/**
 !/waybar/**
 !/wofi/**
 !dolphinrc
