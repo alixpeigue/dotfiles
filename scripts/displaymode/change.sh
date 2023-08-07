@@ -21,6 +21,9 @@ elif [ "$a" == "only external" ]; then
   hyprctl keyword monitor HDMI-A-1,preferred,0x0,1
   hyprctl keyword monitor eDP-1,disable
 fi
+
+killall hyprpaper
+hyprctl dispatch exec hyprpaper
   
   
 

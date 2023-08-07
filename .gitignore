@@ -18,6 +18,7 @@ fish/fish_variables
 !/swaylock/**
 !/waybar/**
 !/wofi/**
+!/eww/**
 !dolphinrc
 !kdeglobals
 !/LICENSE

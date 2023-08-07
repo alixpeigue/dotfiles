@@ -7,3 +7,6 @@
 set icons true
 
 map i set hidden!
+
+map o &ripdrag -A -x $fx
+map O &ripdrag

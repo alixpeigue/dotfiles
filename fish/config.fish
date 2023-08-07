@@ -28,6 +28,7 @@ abbr --add ga git add
 set -Ux EDITOR helix
 set -Ux QT_QPA_PLATFORMTHEME qt5ct
 set -g fish_greeting
+set -Ux XDG_CONFIG_HOME ~/.config
 
 if status is-interactive
     # Commands to run in interactive sessions can go here
