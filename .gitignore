@@ -19,6 +19,7 @@ fish/fish_variables
 !/waybar/**
 !/wofi/**
 !/eww/**
+!/nushell/**
 !dolphinrc
 !kdeglobals
 !/LICENSE

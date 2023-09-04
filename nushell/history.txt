@@ -1,0 +1,37 @@
+cd Documents/
+hx
+z Code/
+fzf Eduroam/
+cd
+cd .config/
+ls
+cd nushell/
+ls
+helix config.nu
+lf
+lfcd
+config nu
+config env
+exit
+lfcd
+cd
+config nu
+vpninsa
+config nu
+cd Documents/
+config nu
+mkdir super
+rm -r super
+rme
+ps
+z
+rme
+ps
+clear
+cd
+Coding battle/Edition 2021
+config nu
+menu
+clear
+z
+z super

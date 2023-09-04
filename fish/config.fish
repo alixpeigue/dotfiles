@@ -2,9 +2,9 @@
 #set fish_function_path $fish_function_path "/usr/share/powerline/fish/"
 #powerline-setup
 
-#starship init fish | source
+starship init fish | source
 
-#enable_transience
+enable_transience
 
 #!/bin/bash
 
