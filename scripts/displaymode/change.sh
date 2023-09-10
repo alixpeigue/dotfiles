@@ -20,6 +20,9 @@ elif [ "$a" == "only main" ]; then
 elif [ "$a" == "only external" ]; then
   hyprctl keyword monitor HDMI-A-1,preferred,0x0,1
   hyprctl keyword monitor eDP-1,disable
+elif [ "$a" == "extend top" ]; then
+  hyprctl keyword monitor eDP-1,preferred,0x1080,1
+  hyprctl keyword monitor HDMI-A-1,preferred,0x0,1
 fi
 
 killall hyprpaper
