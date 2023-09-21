@@ -20,6 +20,8 @@ abbr --add gc git clone
 abbr --add gco git checkout
 abbr --add gca git commit -am
 abbr --add ga git add
+abbr --add gp git push
+abbr --add gs git status
 
 
 
