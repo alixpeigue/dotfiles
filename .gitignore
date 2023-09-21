@@ -20,5 +20,6 @@ fish/fish_variables
 !/wofi/**
 !/eww/**
 !/nushell/**
+!/rofi/**
 !kdeglobals
 !/LICENSE
