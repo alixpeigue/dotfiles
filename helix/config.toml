@@ -4,6 +4,7 @@ theme = "onedark_transparent"
 line-number = "relative"
 completion-replace = true
 color-modes = true
+shell = ["fish", "-c"]
 
 [editor.file-picker]
 hidden = false

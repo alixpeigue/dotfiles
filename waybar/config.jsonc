@@ -89,7 +89,7 @@
     "tray": {
         "icon-size": 13,
         "tooltip": false,
-        "spacing": 10
+        "spacing": 15
     },
     "clock": {
         "format": "{: %R   %d/%m}",
