@@ -12,3 +12,11 @@ auto-format = true
 # roots = ["pyproject.toml"]
 # language-server = {command = "pyright-langserver", args=["--stdio"]}
 # config = {} # important line
+
+[language-server.mdpls]
+command = "mdpls"
+config = {markdown.preview.autu = true, markdown.preview.brewser = "firefox"}
+
+[[language]]
+name = "markdown"
+language-servers = ["mdpls"]

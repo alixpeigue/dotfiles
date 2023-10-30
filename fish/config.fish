@@ -23,7 +23,10 @@ abbr --add ga git add
 abbr --add gp git push
 abbr --add gs git status
 
-
+function mkcd
+  mkdir $argv
+  and cd $argv
+end
 
 # alias cat='bat'
 
@@ -37,3 +40,5 @@ if status is-interactive
 
 
 end
+
+set -q GHCUP_INSTALL_BASE_PREFIX[1]; or set GHCUP_INSTALL_BASE_PREFIX $HOME ; set -gx PATH $HOME/.cabal/bin $PATH /home/apeigue/.ghcup/bin # ghcup-env
