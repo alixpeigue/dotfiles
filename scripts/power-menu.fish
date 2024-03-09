@@ -4,7 +4,7 @@ set a (printf "poweroff\nreboot\nlog out\nlock\nsuspend" | rofi -dmenu)
 
 switch $a
     case lock
-        swaylock -f
+        loginctl lock-session
     case "log out"
         hyprctl dispatch exit
     case reboot

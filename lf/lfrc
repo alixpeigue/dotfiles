@@ -6,7 +6,9 @@
 
 set icons true
 
+source '~/.config/lf/opener'
+
 map i set hidden!
 
-map o &ripdrag -A -x $fx
-map O &ripdrag
+# map o &ripdrag -A -x $fx
+# map O &ripdrag

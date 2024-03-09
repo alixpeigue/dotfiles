@@ -52,6 +52,7 @@ tooltip {
 #custom-updates,
 #custom-caffeine,
 #custom-weather,
+#custom-spotify,
 #window,
 #clock,
 #battery,
@@ -142,6 +143,12 @@ tooltip {
     border-right: 0px;
     border-left: 0px;
     border-radius: 10px 0 0 10px;
+}
+
+#custom-spotify {
+    color: #e06c75;
+    border-radius: 10px;
+    margin-right: 10px;
 }
 
 #battery.normal.charging {
