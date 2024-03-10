@@ -89,6 +89,8 @@
     },
     "custom/spotify" : {
         "exec" : "playerctl --player=spotify metadata -F -f \"{{title}} - {{artist}} ({{duration(position)}}/{{duration(mpris:length)}})\"",
+        "on-click": "playerctl --player=spotify next",
+        "on-click-right": "playerctl --player=spotify previous",
         "format": " {}",
         "exec-if" : "pgrep spotify"
     },
